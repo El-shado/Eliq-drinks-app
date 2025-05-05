@@ -1,0 +1,8 @@
+<div *ngIf="loading">Loading...</div>
+<div *ngIf="error">{{ error }}</div>
+
+<div class="grid" *ngIf="!loading && !error">
+  <a *ngFor="let drink of drinks" [routerLink]="['/drink', drink.idDrink]">
+    <app-drink-card [drink]="drink"></app-drink-card>
+  </a>
+</div>

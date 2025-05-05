@@ -1,0 +1,170 @@
+/* Importing Google Fonts for a modern and attractive look */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+/* You can add global styles to this file, and also import other style files */
+
+/* Applying the new font globally */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #1e1e2f;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+/* Styling for headers */
+h1, h2, h3 {
+  font-weight: 600;
+  color: #ff758c;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+/* Styling for paragraphs and general text */
+p {
+  font-weight: 300;
+  line-height: 1.8;
+  color: #ddd;
+}
+
+/* Button enhancements */
+button {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 12px 24px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Enhancing links */
+a {
+  font-weight: 400;
+  color: #ff758c;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+a:hover {
+  color: #ff4a6e;
+}
+
+/* Styling for the back button */
+.back-button {
+  display: inline-block;
+  background: linear-gradient(135deg, #ff7eb3, #ff758c);
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  transition: transform 0.2s, box-shadow 0.2s;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.back-button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Card layout for drinks */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  width: 90%;
+  max-width: 1200px;
+  margin: 20px auto;
+}
+
+.grid a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.app-container {
+  text-align: center;
+  padding: 20px;
+}
+
+/* Drink card styling */
+app-drink-card {
+  font-family: 'Poppins', sans-serif;
+  background: #2a2a3b;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+app-drink-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+}
+
+/* Styling for Ingredients and Instructions sections */
+.section {
+  margin: 20px 0;
+  padding: 15px;
+  background: #2a2a3b;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.section-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #ff758c;
+  margin-bottom: 10px;
+}
+
+.ingredients-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.ingredients-list li {
+  background: #3a3a4b;
+  margin: 5px 0;
+  padding: 8px;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.instructions {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #ddd;
+}
+
+/* Styling for the app title */
+.app-header {
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.app-title {
+  font-size: 36px;
+  font-weight: bold;
+  color: #fff;
+  margin: 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  font-family: 'Roboto', sans-serif;
+}

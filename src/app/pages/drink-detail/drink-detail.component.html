@@ -1,0 +1,17 @@
+<div class="drink-detail" *ngIf="drink">
+  <h2>{{ drink.strDrink }}</h2>
+  <img [src]="drink.strDrinkThumb" [alt]="drink.strDrink" />
+
+  <div class="section">
+    <h3 class="section-title">Ingredients</h3>
+    <ul class="ingredients-list">
+      <li *ngFor="let ingredient of ingredients">{{ ingredient }}</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h3 class="section-title">Instructions</h3>
+    <p class="instructions">{{ drink.strInstructions }}</p>
+  </div>
+</div>
+<a routerLink="/drinks" class="back-button">← Back to Drinks</a>
