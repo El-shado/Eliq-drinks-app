@@ -38,6 +38,7 @@ The final compiled version of the app has been deployed to GitHub Pages. You can
 
 [https://GetEliq.github.io/Eliq-drinks-app-Chadi/](https://GetEliq.github.io/Eliq-drinks-app-Chadi/)
 
+**Note:** If you encounter a 404 error, ensure that the `gh-pages` branch is set as the source for GitHub Pages in the repository settings. 
 ## How to Run Locally
 
 1. Clone the repository:
