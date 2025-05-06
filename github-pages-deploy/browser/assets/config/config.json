@@ -1,7 +1,0 @@
-{
-    "appTitle": "Eliq Drinks",
-    "themeColor": "#ff6f61",
-    "showLanguages": ["en", "es", "de", "fr", "it"],
-    "apiUrl": "https://www.thecocktaildb.com/api/json/v1/1"
-  }
-  
