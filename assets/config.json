@@ -1,6 +1,0 @@
-{
-  "appTitle": "Eliq Drinks",
-  "themeColor": "#ff6f61",
-  "showLanguages": ["en", "es", "de", "fr", "it"],
-  "apiBaseUrl": "https://api.example.com"
-}
